@@ -42,6 +42,7 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import MuiDateRangePicker from "./components/MuiDateRangePicker";
 import MuiTabs from "./components/MuiTabs";
 import MuiTimeline from "./components/MuiTimeline";
+import MuiMasonary from "./components/MuiMasonary";
 
 function App() {
   return (
@@ -89,7 +90,8 @@ function App() {
         {/* <MuiPicker></MuiPicker> */}
         {/* <MuiDateRangePicker></MuiDateRangePicker> */}
         {/* <MuiTabs></MuiTabs> */}
-        <MuiTimeline></MuiTimeline>
+        {/* <MuiTimeline></MuiTimeline> */}
+        <MuiMasonary></MuiMasonary>
       </div>
     </LocalizationProvider>
   );
